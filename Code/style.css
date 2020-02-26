@@ -6,13 +6,22 @@ body {
 
 aside{
   background-color: #000;
-  margin: 75px;
+  margin: 0;
 }
 
 header{
   border: solid 4px black;
-  height: 200px;
+  height: 250px;
   background-color: indigo;
+}
+
+.header-img{
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+  background-image: url('airplane.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .icon {
@@ -30,51 +39,50 @@ header{
   color: aliceblue;
 }
 
-.first-one{
+.top-section{
   background-color: antiquewhite;
-  height: 350px;
+  height: 200px;
 }
 
-.second-one{
+.summary-section{
   background-color: black;
-  height: 350px;
+  height: 200px;
 }
 
-.my-project{
+.tech-section{
   background-color: antiquewhite;
-  height: 350px;
+  height: 200px;
 }
 
-.other-project{
+.featured-projects{
   background-color: black;
-  height: 350px;
+  height: 200px;
 }
 
-.thoughts{
+.other-projects{
   background-color: antiquewhite;
-  height: 350px;
+  height: 200px;
 }
 
-.more-thoughts{
+.my-thoughts{
   background-color: black;
-  height: 350px;
+  height: 200px;
 }
 
 .skils{
   background-color: antiquewhite;
-  height: 350px;
+  height: 200px;
 }
 
 .more-me{
   background-color: black;
-  height: 350px;
+  height: 200px;
 }
 
 footer{
   background-color: green;
-  height: 350px;
+  height: 100px;
 }
-
 
 @media (min-width: 667px) and (max-width: 1024px) {
 
@@ -82,13 +90,83 @@ footer{
     background-color: violet;
   }
 
+  aside{
+    background-color: #000;
+    margin: 0 50px 0 50px;
+  }
+
   header{
     border: solid 4px green;
     height: 300px;
   }
 
+  .header-img{
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    background-image: url('airplane.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
   .icon {
     color: aliceblue;
+    text-align: right;
+    padding: 90px;
+    font-size: 19px;
+  }
+  
+  .about-you{
+    color: aliceblue;
+  }
+  
+  .seflie{
+    color: aliceblue;
+  }
+  
+  .top-section{
+    background-color: antiquewhite;
+    height: 250px;
+  }
+  
+  .summary-section{
+    background-color: black;
+    height: 250px;
+  }
+  
+  .tech-section{
+    background-color: antiquewhite;
+    height: 250px;
+  }
+  
+  .featured-projects{
+    background-color: black;
+    height: 250px;
+  }
+  
+  .other-projects{
+    background-color: antiquewhite;
+    height: 250px;
+  }
+  
+  .my-thoughts{
+    background-color: black;
+    height: 250px;
+  }
+  
+  .skils{
+    background-color: antiquewhite;
+    height: 250px;
+  }
+  
+  .more-me{
+    background-color: black;
+    height: 250px;
+  }
+  
+  footer{
+    background-color: green;
+    height: 100px;
   }
 
 }
@@ -98,14 +176,85 @@ footer{
     background-color: teal;
   }
 
+  aside{
+    background-color: #000;
+    margin: 0 75px 0 75px;
+  }
+
   header{
     border: solid 4px yellow;
     height: 400px;
   }
 
-  .icon {
-    color: aliceblue;
+  .header-img{
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    background-image: url('airplane.jpg');
+    background-size: cover;
+    background-position: center;
   }
+  
+  /*.icon {
+    color: aliceblue;
+    text-align: right;
+    padding: 90px;
+    font-size: 19px;
+  }*/
+  
+  /*.about-you{
+    color: aliceblue;
+  }*/
+  
+  /*.seflie{
+    color: aliceblue;
+  }*/
+  
+  .top-section{
+    background-color: antiquewhite;
+    height: 350px;
+  }
+  
+  .summary-section{
+    background-color: black;
+    height: 350px;
+  }
+  
+  .tech-section{
+    background-color: antiquewhite;
+    height: 350px;
+  }
+  
+  .featured-projects{
+    background-color: black;
+    height: 350px;
+  }
+  
+  .other-projects{
+    background-color: antiquewhite;
+    height: 350px;
+  }
+  
+  .my-thoughts{
+    background-color: black;
+    height: 350px;
+  }
+  
+  .skils{
+    background-color: antiquewhite;
+    height: 350px;
+  }
+  
+  .more-me{
+    background-color: black;
+    height: 350px;
+  }
+  
+  footer{
+    background-color: green;
+    height: 100px;
+  }
+  
   
 
 }
