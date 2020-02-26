@@ -1,18 +1,20 @@
 /* STYLING IS WORKED BY MOBILE FIRST */
 body {
-  background-color:  yellow;
+  background-color:  #FFFFFF;
   margin: 0;
 }
 
 aside{
-  background-color: #000;
+  background-color: #FFFFFF;
   margin: 0;
 }
 
 header{
-  border: solid 4px black;
   height: 250px;
-  background-color: indigo;
+}
+
+h2{
+  color: aqua;
 }
 
 .header-img{
@@ -26,9 +28,7 @@ header{
 
 .icon {
   color: aliceblue;
-  text-align: right;
-  padding: 90px;
-  font-size: 19px;
+  
 }
 
 .about-you{
@@ -40,63 +40,61 @@ header{
 }
 
 .top-section{
-  background-color: antiquewhite;
+  background-color: #F4F4F4;
   height: 200px;
 }
 
 .summary-section{
-  background-color: black;
+  background-color: #FFFFFF;
   height: 200px;
 }
 
 .tech-section{
-  background-color: antiquewhite;
+  background-color: #F4F4F4;
   height: 200px;
 }
 
 .featured-projects{
-  background-color: black;
+  background-color: #FFFFFF;
   height: 200px;
 }
 
 .other-projects{
-  background-color: antiquewhite;
+  background-color: #F4F4F4;
   height: 200px;
 }
 
 .my-thoughts{
-  background-color: black;
+  background-color: #FFFFFF;
   height: 200px;
 }
 
 .skils{
-  background-color: antiquewhite;
+  background-color: #F4F4F4;
   height: 200px;
 }
 
 .more-me{
-  background-color: black;
+  background-color: #FFFFFF;
   height: 200px;
 }
 
 footer{
-  background-color: green;
+  background-color: #072BCE;
   height: 100px;
 }
 
 @media (min-width: 667px) and (max-width: 1024px) {
 
   body{
-    background-color: violet;
+    background-color: #FFFFFF;
   }
 
   aside{
-    background-color: #000;
     margin: 0 50px 0 50px;
   }
 
   header{
-    border: solid 4px green;
     height: 300px;
   }
 
@@ -104,7 +102,6 @@ footer{
     position: relative;
     height: 300px;
     overflow: hidden;
-    background-image: url('airplane.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -125,47 +122,38 @@ footer{
   }
   
   .top-section{
-    background-color: antiquewhite;
     height: 250px;
   }
   
   .summary-section{
-    background-color: black;
     height: 250px;
   }
   
   .tech-section{
-    background-color: antiquewhite;
     height: 250px;
   }
   
   .featured-projects{
-    background-color: black;
     height: 250px;
   }
   
   .other-projects{
-    background-color: antiquewhite;
     height: 250px;
   }
   
   .my-thoughts{
-    background-color: black;
     height: 250px;
   }
   
   .skils{
-    background-color: antiquewhite;
     height: 250px;
   }
   
   .more-me{
-    background-color: black;
     height: 250px;
   }
   
   footer{
-    background-color: green;
     height: 100px;
   }
 
@@ -173,16 +161,14 @@ footer{
 @media (min-width: 1025px) {
 
   body{
-    background-color: teal;
+    background-color: #FFFFFF;
   }
 
   aside{
-    background-color: #000;
     margin: 0 75px 0 75px;
   }
 
   header{
-    border: solid 4px yellow;
     height: 400px;
   }
 
@@ -190,7 +176,6 @@ footer{
     position: relative;
     height: 400px;
     overflow: hidden;
-    background-image: url('airplane.jpg');
     background-size: cover;
     background-position: center;
   }
@@ -211,47 +196,38 @@ footer{
   }*/
   
   .top-section{
-    background-color: antiquewhite;
     height: 350px;
   }
   
   .summary-section{
-    background-color: black;
     height: 350px;
   }
   
   .tech-section{
-    background-color: antiquewhite;
     height: 350px;
   }
   
   .featured-projects{
-    background-color: black;
     height: 350px;
   }
   
   .other-projects{
-    background-color: antiquewhite;
     height: 350px;
   }
   
   .my-thoughts{
-    background-color: black;
     height: 350px;
   }
   
   .skils{
-    background-color: antiquewhite;
     height: 350px;
   }
   
   .more-me{
-    background-color: black;
     height: 350px;
   }
   
   footer{
-    background-color: green;
     height: 100px;
   }
   
