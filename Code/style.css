@@ -1,6 +1,80 @@
+/* STYLING IS WORKED BY MOBILE FIRST */
 body {
   background-color:  yellow;
+  margin: 0;
 }
+
+aside{
+  background-color: #000;
+  margin: 75px;
+}
+
+header{
+  border: solid 4px black;
+  height: 200px;
+  background-color: indigo;
+}
+
+.icon {
+  color: aliceblue;
+  text-align: right;
+  padding: 90px;
+  font-size: 19px;
+}
+
+.about-you{
+  color: aliceblue;
+}
+
+.seflie{
+  color: aliceblue;
+}
+
+.first-one{
+  background-color: antiquewhite;
+  height: 350px;
+}
+
+.second-one{
+  background-color: black;
+  height: 350px;
+}
+
+.my-project{
+  background-color: antiquewhite;
+  height: 350px;
+}
+
+.other-project{
+  background-color: black;
+  height: 350px;
+}
+
+.thoughts{
+  background-color: antiquewhite;
+  height: 350px;
+}
+
+.more-thoughts{
+  background-color: black;
+  height: 350px;
+}
+
+.skils{
+  background-color: antiquewhite;
+  height: 350px;
+}
+
+.more-me{
+  background-color: black;
+  height: 350px;
+}
+
+footer{
+  background-color: green;
+  height: 350px;
+}
+
 
 @media (min-width: 667px) and (max-width: 1024px) {
 
@@ -8,12 +82,31 @@ body {
     background-color: violet;
   }
 
+  header{
+    border: solid 4px green;
+    height: 300px;
+  }
+
+  .icon {
+    color: aliceblue;
+  }
+
 }
 @media (min-width: 1025px) {
 
-    body{
-      background-color: teal;
-    }
+  body{
+    background-color: teal;
+  }
+
+  header{
+    border: solid 4px yellow;
+    height: 400px;
+  }
+
+  .icon {
+    color: aliceblue;
+  }
+  
 
 }
 
