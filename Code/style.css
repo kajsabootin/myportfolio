@@ -43,49 +43,51 @@ h2{
 }
 
 .linkedin-icon{
-  width: 30px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
 }
 
 .link-linkedin{
   border: 3px solid #ffffff;
   border-radius: 50% ;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 7px;
 }
 
 .github-icon{
-  width: 31px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
 }
 
 .link-github{
   border: 3px solid #ffffff;
   border-radius: 50% ;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 7px;
 }
 
 .stackoerflow-icon{
-  width: 31px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
 }
 
 .link-stackoverflow{
   border: 3px solid #ffffff;
   border-radius: 50% ;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  padding: 7px;
 }
 
 .about-you{
@@ -110,13 +112,8 @@ h2{
   font-size: 17px;
 }
 
-.summary-section{
-  background-color: #FFFFFF;
-  height: 200px;
-}
-
 .tech-section{
-  background-color: #F4F4F4;
+  background-color: #FFFFFF;
   height: 200px;
   text-align: center;
   font-family: "Montserrat";
@@ -128,28 +125,67 @@ h2{
 }
 
 .featured-projects{
-  background-color: #FFFFFF;
+  background-color: #F4F4F4;
   height: 200px;
 }
 
 .other-projects{
-  background-color: #F4F4F4;
+  background-color: #FFFFFF;
   height: 200px;
 }
 
 .my-thoughts{
-  background-color: #FFFFFF;
-  height: 200px;
-}
-
-.skils{
   background-color: #F4F4F4;
   height: 200px;
 }
 
-.more-me{
+.skils{
   background-color: #FFFFFF;
   height: 200px;
+}
+
+.more-me{
+  background-color: #F4F4F4;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkdin-footer{
+  border: 3px solid #FF0000;
+  border-radius: 50% ;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  margin: 40px;
+}
+
+.github-footer{
+  border: 3px solid #FF0000;
+  border-radius: 50% ;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  margin: 40px;
+}
+
+.stackoverflow-footer{
+  border: 3px solid #FF0000;
+  border-radius: 50% ;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  margin: 40px;
 }
 
 footer{
@@ -185,6 +221,18 @@ footer{
     padding: 90px;
     font-size: 19px;
   }
+
+  .link-github{
+    width: 35px;
+    height: 35px;
+    padding: 7px;
+  }
+
+  .link-stackoverflow{
+    width: 35px;
+    height: 35px;
+    padding: 7px;
+  }
   
   .about-you{
     color: aliceblue;
@@ -195,10 +243,6 @@ footer{
   }
   
   .top-section{
-    height: 250px;
-  }
-  
-  .summary-section{
     height: 250px;
   }
   
@@ -224,6 +268,28 @@ footer{
   
   .more-me{
     height: 250px;
+  }
+
+  .linkdin-footer{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    padding: 7px;
+    margin: 40px;
+  }
+
+  .github-footer{
+    width: 60px;
+    height: 60px;
+    padding: 7px;
+    margin: 40px;
+  }
+  
+  .stackoverflow-footer{
+    width: 60px;
+    height: 60px;
+    padding: 7px;
+    margin: 40px;
   }
   
   footer{
@@ -252,30 +318,23 @@ footer{
     background-size: cover;
     background-position: center;
   }
-  
-  /*.icon {
-    color: aliceblue;
-    text-align: right;
-    padding: 90px;
-    font-size: 19px;
-  }*/
-  
-  /*.about-you{
-    color: aliceblue;
-  }*/
-  
-  /*.seflie{
-    color: aliceblue;
-  }*/
+
+  .link-github{
+    width: 35px;
+    height: 35px;
+    padding: 7px;
+  }
+
+  .link-stackoverflow{
+    width: 35px;
+    height: 35px;
+    padding: 7px;
+  }
   
   .top-section{
     height: 350px;
   }
-  
-  .summary-section{
-    height: 350px;
-  }
-  
+
   .tech-section{
     height: 350px;
   }
@@ -298,6 +357,28 @@ footer{
   
   .more-me{
     height: 350px;
+  }
+
+  .linkdin-footer{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    padding: 7px;
+    margin: 40px;
+  }
+
+  .github-footer{
+    width: 60px;
+    height: 60px;
+    padding: 7px;
+    margin: 40px;
+  }
+  
+  .stackoverflow-footer{
+    width: 60px;
+    height: 60px;
+    padding: 7px;
+    margin: 40px;
   }
   
   footer{
