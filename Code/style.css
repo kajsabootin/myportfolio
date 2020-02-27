@@ -21,14 +21,35 @@ h2{
   position: relative;
   height: 250px;
   overflow: hidden;
-  background-image: url('airplane.jpg');
+  background-image: url('images/airplane.jpg');
   background-size: cover;
   background-position: center;
 }
 
-.icon {
+/*.icon-container{
+  border: 3px solid #ffffff;
+  border-radius: 50% ;
+  display: flex;
+  top: 6379px;
+}*/
+
+.social-media {
   color: aliceblue;
-  
+}
+
+.linkedin-icon{
+  border: 3px solid #ffffff;
+  border-radius: 50% ;
+}
+
+.github-icon{
+  border: 3px solid #ffffff;
+  border-radius: 50% ;
+}
+
+.stackoerflow-icon{
+  border: 3px solid #ffffff;
+  border-radius: 50% ;
 }
 
 .about-you{
@@ -106,7 +127,7 @@ footer{
     background-position: center;
   }
   
-  .icon {
+  .social-media {
     color: aliceblue;
     text-align: right;
     padding: 90px;
