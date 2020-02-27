@@ -10,7 +10,7 @@ aside{
 }
 
 header{
-  height: 250px;
+  height: 508px;
 }
 
 h2{
@@ -19,7 +19,7 @@ h2{
 
 .header-img{
   position: relative;
-  height: 250px;
+  height: 508px;
   overflow: hidden;
   background-image: url('images/airplane.jpg');
   background-size: cover;
@@ -38,7 +38,6 @@ h2{
   display: flex;
   justify-content: flex-end;
   height: 12vw;
-  /*width: 12vw;*/
   margin-right: 40px;
 }
 
@@ -103,7 +102,7 @@ h2{
 
 .top-section{
   background-color: #F4F4F4;
-  height: 200px;
+  height: 337px;
   text-align: center;
   font-family: "Montserrat";
   letter-spacing: 0;
@@ -114,39 +113,38 @@ h2{
 
 .tech-section{
   background-color: #FFFFFF;
-  height: 200px;
+  height: 337px;
   text-align: center;
   font-family: "Montserrat";
+  font-size: 17px;
   letter-spacing: 0;
   margin: 5px 0 0 0;
   padding: 58px 36px;
-  font-size: 17px;
-  /*opacity: 1;*/
 }
 
 .featured-projects{
   background-color: #F4F4F4;
-  height: 200px;
+  height: 337px;
 }
 
 .other-projects{
   background-color: #FFFFFF;
-  height: 200px;
+  height: 337px;
 }
 
 .my-thoughts{
   background-color: #F4F4F4;
-  height: 200px;
+  height: 337px;
 }
 
 .skils{
   background-color: #FFFFFF;
-  height: 200px;
+  height: 337px;
 }
 
 .more-me{
   background-color: #F4F4F4;
-  height: 200px;
+  height: 337px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,7 +188,22 @@ h2{
 
 footer{
   background-color: #072BCE;
-  height: 100px;
+  height: 337px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-footer{
+  color: #FFFFFF;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.smalltext-footer{
+  color: #FFFFFF;
+  font-family: "Roboto";
 }
 
 @media (min-width: 667px) and (max-width: 1024px) {
