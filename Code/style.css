@@ -14,7 +14,7 @@ header{
 }
 
 h2{
-  color: aqua;
+  color: #000000;
 }
 
 .header-img{
@@ -35,21 +35,57 @@ h2{
 
 .social-media {
   color: aliceblue;
+  display: flex;
+  justify-content: flex-end;
+  height: 12vw;
+  /*width: 12vw;*/
+  margin-right: 40px;
 }
 
 .linkedin-icon{
+  width: 30px;
+  height: 30px;
+}
+
+.link-linkedin{
   border: 3px solid #ffffff;
   border-radius: 50% ;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .github-icon{
+  width: 31px;
+  height: 30px;
+}
+
+.link-github{
   border: 3px solid #ffffff;
   border-radius: 50% ;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .stackoerflow-icon{
+  width: 31px;
+  height: 30px;
+}
+
+.link-stackoverflow{
   border: 3px solid #ffffff;
   border-radius: 50% ;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .about-you{
@@ -58,11 +94,20 @@ h2{
 
 .seflie{
   color: aliceblue;
+  display: flex;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .top-section{
   background-color: #F4F4F4;
   height: 200px;
+  text-align: center;
+  font-family: "Montserrat";
+  letter-spacing: 0;
+  margin: 5px 0 0 0;
+  padding: 58px 36px;
+  font-size: 17px;
 }
 
 .summary-section{
@@ -73,6 +118,13 @@ h2{
 .tech-section{
   background-color: #F4F4F4;
   height: 200px;
+  text-align: center;
+  font-family: "Montserrat";
+  letter-spacing: 0;
+  margin: 5px 0 0 0;
+  padding: 58px 36px;
+  font-size: 17px;
+  /*opacity: 1;*/
 }
 
 .featured-projects{
