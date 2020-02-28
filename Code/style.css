@@ -51,6 +51,30 @@ h2{
   font-weight: lighter;
 }
 
+.h2-myname{
+  display: flex;
+  font-family: "Roboto";
+  font-size: 20x;
+  font-weight: bolder;
+  justify-content: flex-end;
+  position: absolute;
+  letter-spacing: 0.52px;
+  left: 15px;
+  top: 140px;
+}
+
+.h2-mytitel{
+  display: flex;
+  font-family: "Montserrat";
+  font-size: 30x;
+  font-weight: bolder;
+  letter-spacing: 0.52px;
+  justify-content: flex-end;
+  position: absolute;
+  left: 15px;
+  top: 170px;
+}
+
 /*Header*/
 
 .header-img{
@@ -66,8 +90,9 @@ h2{
   color: aliceblue;
   display: flex;
   justify-content: flex-end;
-  height: 12vw;
-  margin-right: 40px;
+  position: absolute;
+  right: 40px;
+  top: 120px;
 }
 
 .linkedin-icon{
@@ -84,6 +109,7 @@ h2{
   justify-content: center;
   align-items: center;
   padding: 7px;
+  margin: 2px;
 }
 
 .github-icon{
@@ -100,6 +126,7 @@ h2{
   justify-content: center;
   align-items: center;
   padding: 7px;
+  margin: 2px;
 }
 
 .stackoerflow-icon{
@@ -116,6 +143,7 @@ h2{
   justify-content: center;
   align-items: center;
   padding: 7px;
+  margin: 2px;
 }
 
 .about-you{
@@ -461,7 +489,7 @@ footer{
   }
   
   footer{
-    height: 337px;
+    height: 400px;
   }
   
   
