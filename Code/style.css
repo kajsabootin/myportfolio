@@ -13,9 +13,45 @@ header{
   height: 508px;
 }
 
+h3{
+  text-align: center;
+}
+
+.H3-tech{
+  color: #FF0000;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: bolder;
+  letter-spacing: 0;
+  padding-top: 40px;
+}
+
 h2{
   color: #000000;
+  font-family: "Montserrat";
+  font-size: 17px;
+  letter-spacing: 0;
+  margin: 5px 0 0 0;
+  padding: 58px 36px;
+  font-weight: lighter;
+  /*opacity: 1;*/
+  /*font-weight: bolder;*/
+  /*height: 228px;*/
 }
+
+.H2-tech{
+  color: #000000;
+  font-family: "Montserrat";
+  font-size: 17px;
+  letter-spacing: 0;
+  margin: 5px 0 0 0;
+  padding: 20px 36px 0px;
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+/*Header*/
 
 .header-img{
   position: relative;
@@ -25,13 +61,6 @@ h2{
   background-size: cover;
   background-position: center;
 }
-
-/*.icon-container{
-  border: 3px solid #ffffff;
-  border-radius: 50% ;
-  display: flex;
-  top: 6379px;
-}*/
 
 .social-media {
   color: aliceblue;
@@ -96,30 +125,26 @@ h2{
 .seflie{
   color: aliceblue;
   display: flex;
-  display: flex;
   justify-content: flex-end;
 }
+
+/* First section*/
 
 .top-section{
   background-color: #F4F4F4;
   height: 337px;
-  text-align: center;
-  font-family: "Montserrat";
-  letter-spacing: 0;
-  margin: 5px 0 0 0;
-  padding: 58px 36px;
-  font-size: 17px;
+  text-align: left;
+  /*margin: 5px 0 0 0;
+  padding: 58px 36px;*/
 }
+
+/*Second section*/
 
 .tech-section{
   background-color: #FFFFFF;
   height: 337px;
-  text-align: center;
-  font-family: "Montserrat";
-  font-size: 17px;
-  letter-spacing: 0;
-  margin: 5px 0 0 0;
-  padding: 58px 36px;
+  /*margin: 5px 0 0 0;
+  padding: 58px 36px;*/
 }
 
 .featured-projects{
@@ -147,43 +172,63 @@ h2{
   height: 337px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
+}
+
+.all-iconfooter{
+  display: flex;
+  justify-content: center;
 }
 
 .linkdin-footer{
   border: 3px solid #FF0000;
   border-radius: 50% ;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 7px;
-  margin: 40px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.linkedin-iconfooter{
+  width: 20px;
+  height: 20px;
 }
 
 .github-footer{
   border: 3px solid #FF0000;
   border-radius: 50% ;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 7px;
-  margin: 40px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.github-iconfooter{
+  width: 20px;
+  height: 20px;
 }
 
 .stackoverflow-footer{
   border: 3px solid #FF0000;
   border-radius: 50% ;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 7px;
-  margin: 40px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.stackoverflow-iconfooter{
+  width: 20px;
+  height: 20px;
 }
 
 footer{
@@ -199,11 +244,6 @@ footer{
   color: #FFFFFF;
   font-family: "Montserrat";
   font-weight: bold;
-}
-
-.smalltext-footer{
-  color: #FFFFFF;
-  font-family: "Roboto";
 }
 
 @media (min-width: 667px) and (max-width: 1024px) {
@@ -321,12 +361,15 @@ footer{
   }
 
   header{
-    height: 400px;
+    height: 666px;
+    /*width: 1951px;*/
+
   }
 
   .header-img{
     position: relative;
-    height: 400px;
+    height: 666px;
+    /*width: 1951px;*/
     overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -345,31 +388,31 @@ footer{
   }
   
   .top-section{
-    height: 350px;
+    height: 439px;
   }
 
   .tech-section{
-    height: 350px;
+    height: 439px;
   }
   
   .featured-projects{
-    height: 350px;
+    height: 439px;
   }
   
   .other-projects{
-    height: 350px;
+    height: 439px;
   }
   
   .my-thoughts{
-    height: 350px;
+    height: 439px;
   }
   
   .skils{
-    height: 350px;
+    height: 822px;
   }
   
   .more-me{
-    height: 350px;
+    height: 439px;
   }
 
   .linkdin-footer{
@@ -395,7 +438,7 @@ footer{
   }
   
   footer{
-    height: 100px;
+    height: 337px;
   }
   
   
