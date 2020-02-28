@@ -24,7 +24,7 @@ h3{
   font-size: 22px;
   font-weight: bolder;
   letter-spacing: 0;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 h2{
@@ -46,8 +46,8 @@ h2{
   font-size: 17px;
   letter-spacing: 0;
   margin: 5px 0 0 0;
-  padding: 20px 36px 0px;
-  padding-top: 20px;
+  padding: 0px 36px 20px;
+  /*padding-top: 20px;*/
   font-weight: lighter;
 }
 
@@ -173,14 +173,12 @@ h2{
 
 .tech-section{
   background-color: #FFFFFF;
-  height: 337px;
-  /*margin: 5px 0 0 0;
-  padding: 58px 36px;*/
+  /*margin: 5px 0 0 0;*/
+  /*padding: 58px 36px;*/
 }
 
 .featured-projects{
   background-color: #F4F4F4;
-  height: 337px;
 }
 
 .other-projects{
@@ -482,9 +480,9 @@ footer{
     height: 439px;
   }*/
 
-  .tech-section{
+  /*.tech-section{
     height: 439px;
-  }
+  }*/
   
   .featured-projects{
     height: 439px;
