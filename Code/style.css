@@ -52,10 +52,11 @@ h2{
 }
 
 .h2-myname{
+  color: #ffffff;
   display: flex;
   font-family: "Roboto";
   font-size: 20x;
-  font-weight: bolder;
+  font-weight: lighter;
   justify-content: flex-end;
   position: absolute;
   letter-spacing: 0.52px;
@@ -64,6 +65,7 @@ h2{
 }
 
 .h2-mytitel{
+  color: #ffffff;
   display: flex;
   font-family: "Montserrat";
   font-size: 30x;
@@ -87,12 +89,11 @@ h2{
 }
 
 .social-media {
-  color: aliceblue;
   display: flex;
   justify-content: flex-end;
   position: absolute;
-  right: 40px;
-  top: 120px;
+  right: 20px;
+  top: 40px;
 }
 
 .linkedin-icon{
@@ -163,8 +164,7 @@ h2{
 
 .top-section{
   background-color: #F4F4F4;
-  height: 337px;
-  text-align: left;
+  text-align: center;
   /*margin: 5px 0 0 0;
   padding: 58px 36px;*/
 }
@@ -301,9 +301,14 @@ footer{
   
   .social-media {
     color: aliceblue;
-    text-align: right;
+    /*text-align: right;
     padding: 90px;
-    font-size: 19px;
+    font-size: 19px;*/
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 50px;
+    top: 200px;
   }
 
   .link-github{
@@ -407,7 +412,8 @@ footer{
     font-size: 30px;
     margin: 30px 50px 30px 50px;
     padding: 80px;
-    /*padding-top: 20px;*/
+    padding-top: 0;
+    text-align: center;
   }
   
 
@@ -418,29 +424,63 @@ footer{
   }
 
   .header-img{
-    position: relative;
+    /*position: relative;*/
     height: 666px;
-    /*width: 1951px;*/
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
+    /*background-size: cover;
+    background-position: center;*/
+  }
+
+  .linkedin-icon{
+    width: 20px;
+    height: 20px;
+  }
+
+  .link-linkedin{
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+  }
+
+  .github-icon{
+    width: 20px;
+    height: 20px;
   }
 
   .link-github{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     padding: 7px;
   }
 
+  .stackoerflow-icon{
+    width: 20px;
+    height: 20px;
+  }
+
   .link-stackoverflow{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     padding: 7px;
   }
-  
-  .top-section{
-    height: 439px;
+
+  .social-media {
+    right: 80px;
+    top: 100px;
   }
+    
+  .selfie{
+    right: 280px;
+    top: 400px;
+  }
+
+  .selfie-image{
+    height: 300px;
+    width: 300px;
+  }
+  
+  /*.top-section{
+    height: 439px;
+  }*/
 
   .tech-section{
     height: 439px;
@@ -491,8 +531,5 @@ footer{
   footer{
     height: 400px;
   }
-  
-  
 
 }
-
