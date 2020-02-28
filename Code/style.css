@@ -363,6 +363,26 @@ footer{
     margin: 0 75px 0 75px;
   }
 
+  h2{
+    font-size: 30px;
+    margin: 0;
+    padding: 180px;
+  }
+
+  .H3-tech{
+    font-size: 50px;
+    letter-spacing: 0;
+    padding-top: 50px;
+  }
+
+  .H2-tech{
+    font-size: 30px;
+    margin: 30px 50px 30px 50px;
+    padding: 80px;
+    /*padding-top: 20px;*/
+  }
+  
+
   header{
     height: 666px;
     /*width: 1951px;*/
