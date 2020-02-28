@@ -179,6 +179,34 @@ h2{
 
 .featured-projects{
   background-color: #F4F4F4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.weather-app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-images{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 30px 5px 30px;
+}
+
+.h2-featured{
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto";
+  letter-spacing: 0.52px;
+  font-size: 17px;
+  font-weight: bolder;
 }
 
 .other-projects{
@@ -299,9 +327,6 @@ footer{
   
   .social-media {
     color: aliceblue;
-    /*text-align: right;
-    padding: 90px;
-    font-size: 19px;*/
     display: flex;
     justify-content: flex-end;
     position: absolute;
@@ -413,19 +438,13 @@ footer{
     padding-top: 0;
     text-align: center;
   }
-  
 
   header{
     height: 666px;
-    /*width: 1951px;*/
-
   }
 
   .header-img{
-    /*position: relative;*/
     height: 666px;
-    /*background-size: cover;
-    background-position: center;*/
   }
 
   .linkedin-icon{
@@ -476,16 +495,16 @@ footer{
     width: 300px;
   }
   
-  /*.top-section{
-    height: 439px;
-  }*/
+  .h2-featured{
+    letter-spacing: 0.52px;
+    font-size: 30px;
+  }
 
-  /*.tech-section{
-    height: 439px;
-  }*/
-  
-  .featured-projects{
-    height: 439px;
+  .weather-images{
+    /*width: 400px;*/
+    height: 200px;
+    margin: 10px;
+    /*padding: 30px 30px 5px 30px;*/
   }
   
   .other-projects{
