@@ -412,6 +412,21 @@ footer{
     font-size: 20px;
   }
 
+  /*Section two*/
+
+  .H3-tech{
+    font-size: 30px;
+    padding-top: 15px;
+  }
+
+  .H2-tech{
+    font-size: 25px;
+    margin: 5px 0 0 0;
+    padding: 0px 30px 20px;
+    /*padding-top: 20px;*/
+    text-align: center;
+  }
+
   /*Footer*/
 
   .linkdin-footer{
@@ -454,7 +469,7 @@ footer{
 
   .H3-tech{
     font-size: 50px;
-    letter-spacing: 0;
+    /*letter-spacing: 0;*/
     padding-top: 50px;
   }
 
