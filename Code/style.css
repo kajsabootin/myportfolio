@@ -406,6 +406,12 @@ footer{
     top: 180px;
   }
 
+  /*SEction one*/
+
+  h2{
+    font-size: 20px;
+  }
+
   /*Footer*/
 
   .linkdin-footer{
