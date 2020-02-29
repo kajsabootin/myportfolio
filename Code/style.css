@@ -21,7 +21,7 @@ h3{
   color: #FF0000;
   box-sizing: border-box;
   font-family: "Montserrat";
-  font-size: 22px;
+  font-size: 27px;
   font-weight: bolder;
   letter-spacing: 0;
   padding-top: 20px;
@@ -322,7 +322,7 @@ footer{
   font-weight: bold;
   font-size: 25px;
   text-align: center;
-  padding-top: 80px;
+  /*padding-top: 80px;*/
 }
 
 .name-footer{
@@ -332,6 +332,7 @@ footer{
   font-family: "Roboto";
   letter-spacing: 0;
   font-size: 20px;
+  padding: 2px 2px;
 }
 
 .contact-footer{
@@ -340,6 +341,7 @@ footer{
   font-weight: lighter;
   text-align: center;
   font-size: 20px;
+  padding: 10px 10px;
 }
 
 @media (min-width: 667px) and (max-width: 1024px) {
@@ -484,6 +486,20 @@ footer{
     height: 60px;
     padding: 7px;
     margin: 40px;
+  }
+
+  /*Footer*/
+
+  .text-footer{
+    font-size: 30px;
+  }
+  
+  .name-footer{
+    font-size: 25px;
+  }
+  
+  .contact-footer{
+    font-size: 25px;
   }
 
 }
@@ -639,5 +655,21 @@ footer{
   .stackoverflow-iconfooter{
     width: 40px;
     height: 40px;
+  }
+
+  /*Footer*/
+
+  .text-footer{
+    font-size: 48px;
+    /*padding-top: 80px;*/
+  }
+  
+  .name-footer{
+    font-size: 40px;
+    padding: 20px 20px;
+  }
+  
+  .contact-footer{
+    font-size: 40px;
   }
 }
