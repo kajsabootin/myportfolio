@@ -51,6 +51,8 @@ h2{
   font-weight: lighter;
 }
 
+/*Header text*/
+
 .h2-myname{
   color: #ffffff;
   display: flex;
@@ -177,6 +179,8 @@ h2{
   /*padding: 58px 36px;*/
 }
 
+/* section tree*/
+
 .featured-projects{
   background-color: #F4F4F4;
   display: flex;
@@ -211,22 +215,20 @@ h2{
 
 .other-projects{
   background-color: #FFFFFF;
-  height: 337px;
 }
 
 .my-thoughts{
   background-color: #F4F4F4;
-  height: 337px;
 }
 
 .skils{
   background-color: #FFFFFF;
-  height: 337px;
 }
+
+/* More me*/
 
 .more-me{
   background-color: #F4F4F4;
-  height: 337px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -288,9 +290,10 @@ h2{
   height: 20px;
 }
 
+/* Footer*/
+
 footer{
   background-color: #072BCE;
-  height: 337px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -301,26 +304,60 @@ footer{
   color: #FFFFFF;
   font-family: "Montserrat";
   font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.name-footer{
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Roboto";
+  letter-spacing: 0;
+  font-size: 20px;
+}
+
+.contact-footer{
+  color: #FFFFFF;
+  font-family: "Roboto";
+  font-weight: lighter;
+  text-align: center;
+  font-size: 20px;
 }
 
 @media (min-width: 667px) and (max-width: 1024px) {
 
   body{
-    background-color: #FFFFFF;
+    background-color: #072BCE;
   }
 
   aside{
     margin: 0 50px 0 50px;
   }
 
+  /*Header text*/
+
+  .h2-myname{
+    font-size: 20px;
+    left: 15px;
+    top: 100px;
+  }
+  
+  .h2-mytitel{
+    font-size: 20px;
+    left: 15px;
+    top: 130px;
+  }
+
+  /*Header*/
+
   header{
     height: 300px;
   }
 
   .header-img{
-    position: relative;
     height: 300px;
-    overflow: hidden;
     background-size: cover;
     background-position: center;
   }
@@ -331,61 +368,49 @@ footer{
     justify-content: flex-end;
     position: absolute;
     right: 50px;
-    top: 200px;
+    top: 80px;
   }
 
+  .linkedin-icon{
+    width: 20px;
+    height: 20px;
+  }
+  
+  .link-linkedin{
+    width: 40px;
+    height: 40px;
+  }
+
+  .github-icon{
+    width: 20px;
+    height: 20px;
+  }
+  
   .link-github{
-    width: 35px;
-    height: 35px;
-    padding: 7px;
+    width: 40px;
+    height: 40px;
   }
 
   .link-stackoverflow{
-    width: 35px;
-    height: 35px;
-    padding: 7px;
+    width: 40px;
+    height: 40px;
   }
-  
-  .about-you{
-    color: aliceblue;
+
+  .stackoerflow-icon{
+    width: 20px;
+    height: 20px;
   }
-  
-  .seflie{
-    color: aliceblue;
+
+  .selfie{
+    right: 55px;
+    top: 180px;
   }
-  
-  .top-section{
-    height: 250px;
-  }
-  
-  .tech-section{
-    height: 250px;
-  }
-  
-  .featured-projects{
-    height: 250px;
-  }
-  
-  .other-projects{
-    height: 250px;
-  }
-  
-  .my-thoughts{
-    height: 250px;
-  }
-  
-  .skils{
-    height: 250px;
-  }
-  
-  .more-me{
-    height: 250px;
-  }
+
+  /*Footer*/
 
   .linkdin-footer{
     width: 60px;
     height: 60px;
-    display: flex;
     padding: 7px;
     margin: 40px;
   }
@@ -402,10 +427,6 @@ footer{
     height: 60px;
     padding: 7px;
     margin: 40px;
-  }
-  
-  footer{
-    height: 100px;
   }
 
 }
@@ -501,52 +522,45 @@ footer{
   }
 
   .weather-images{
-    /*width: 400px;*/
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin: 10px;
     /*padding: 30px 30px 5px 30px;*/
   }
-  
-  .other-projects{
-    height: 439px;
-  }
-  
-  .my-thoughts{
-    height: 439px;
-  }
-  
-  .skils{
-    height: 822px;
-  }
-  
-  .more-me{
-    height: 439px;
-  }
 
   .linkdin-footer{
-    width: 60px;
-    height: 60px;
-    display: flex;
+    width: 80px;
+    height: 80px;
     padding: 7px;
     margin: 40px;
+  }
+
+  .linkedin-iconfooter{
+    width: 40px;
+    height: 40px;
   }
 
   .github-footer{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     padding: 7px;
     margin: 40px;
+  }
+
+  .github-iconfooter{
+    width: 40px;
+    height: 40px;
   }
   
   .stackoverflow-footer{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     padding: 7px;
     margin: 40px;
   }
-  
-  footer{
-    height: 400px;
-  }
 
+  .stackoverflow-iconfooter{
+    width: 40px;
+    height: 40px;
+  }
 }
