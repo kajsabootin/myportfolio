@@ -34,7 +34,6 @@ h4{
   font-weight: normal;
   padding: 4px;
   margin: 8px 5px 17px 0px;
-  /*width: fit-content;*/
 }
 
 h3{
@@ -470,8 +469,6 @@ footer{
     margin: 0 50px 0 50px;
   }
 
-  /*Header text*/
-
   .h2-myname{
     font-size: 20px;
     left: 15px;
@@ -484,16 +481,12 @@ footer{
     top: 130px;
   }
 
-  /*Header*/
-
   header{
     height: 300px;
   }
 
   .header-img{
     height: 300px;
-    background-size: cover;
-    background-position: center;
   }
 
   .linkedin-icon{
@@ -702,7 +695,6 @@ span{
   
   .divprojects{
     font-size: 30px;
-    /*margin: 20px;*/
   }
 
   header{
@@ -803,7 +795,6 @@ span{
   .h1-skills{
     font-size: 50px;
     margin-bottom: 20px;
-    /*margin-top: 23px;*/
   }
   
   .skillscode{
@@ -869,7 +860,6 @@ span{
 
   .text-footer{
     font-size: 48px;
-    /*padding-top: 80px;*/
   }
   
   .name-footer{
