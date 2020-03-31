@@ -246,7 +246,7 @@ span{
   justify-content: center;
 }
 
-.weather-projects{
+.Projects{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -258,11 +258,11 @@ span{
   height: 290px;
 }
 
-.project-food{
+/*.project-food{
   display: flex;
   justify-content: center;
   align-items: center;
-}
+}*/
 
 .projectfood-images{
   display: flex;
@@ -272,7 +272,7 @@ span{
   padding-top: 24px;
 }
 
-.movie-images {
+.Images {
   display: flex;
   width: 290px;
   height: 290px;
@@ -562,7 +562,7 @@ footer{
   height: 330px;
 }
 
-.movie-images {
+.Images {
   width: 330px;
   height: 330px;
 }
@@ -781,7 +781,7 @@ span{
     padding-top: 24px;
   }
 
-  .movie-images {
+  .Images {
     width: 500px;
     height: 400px;
   }
