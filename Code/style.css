@@ -272,6 +272,12 @@ span{
   padding-top: 24px;
 }
 
+.movie-images {
+  display: flex;
+  width: 290px;
+  height: 290px;
+}
+
 /*other projects*/
 
 .other-projects{
@@ -556,6 +562,11 @@ footer{
   height: 330px;
 }
 
+.movie-images {
+  width: 330px;
+  height: 330px;
+}
+
 .H2-projects{
   font-size: 20px;
 }
@@ -768,6 +779,11 @@ span{
     width: 500px;
     height: 400px;
     padding-top: 24px;
+  }
+
+  .movie-images {
+    width: 500px;
+    height: 400px;
   }
 
   /*mythoughts section*/
