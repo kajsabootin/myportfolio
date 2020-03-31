@@ -252,26 +252,6 @@ span{
   align-items: center;
 }
 
-.weather-images{
-  display: flex;
-  width: 290px;
-  height: 290px;
-}
-
-/*.project-food{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}*/
-
-.projectfood-images{
-  display: flex;
-  justify-content: center;
-  width: 290px;
-  height: 290px;
-  padding-top: 24px;
-}
-
 .Images {
   display: flex;
   width: 290px;
@@ -552,16 +532,6 @@ footer{
 
   /*My projects*/
 
-.weather-images{
-  width: 330px;
-  height: 330px;
-}
-
-.projectfood-images{
-  width: 330px;
-  height: 330px;
-}
-
 .Images {
   width: 330px;
   height: 330px;
@@ -770,16 +740,6 @@ span{
   }
 
   /* My projects*/
-  .weather-images{
-    width: 500px;
-    height: 400px;
-  }
-
-  .projectfood-images{
-    width: 500px;
-    height: 400px;
-    padding-top: 24px;
-  }
 
   .Images {
     width: 500px;
