@@ -731,7 +731,10 @@ span{
 
   .selfie-image{
     height: 300px;
-    width: 300px;
+    width: 200px;
+    border-radius: 50%;
+    /*background-attachment: fixed;
+    background-position: center;*/
   }
   
   .h2-featured{
