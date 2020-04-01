@@ -189,6 +189,12 @@ h2{
   top: 360px; 
 }
 
+.selfie-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
 /* First section*/
 
 .top-section{
@@ -507,7 +513,7 @@ footer{
 
   .selfie{
     right: 55px;
-    top: 180px;
+    top: 150px;
   }
 
   /*SEction one*/
@@ -725,14 +731,15 @@ span{
   }
     
   .selfie{
-    right: 280px;
+    right: 250px;
     top: 400px;
   }
 
   .selfie-image{
     height: 300px;
-    width: 200px;
-    border-radius: 50%;
+    width: 300px;
+    /*background-size: cover;
+    background-position: bottom;*/
     /*background-attachment: fixed;
     background-position: center;*/
   }
