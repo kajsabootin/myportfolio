@@ -1,33 +1,31 @@
-/* STYLING IS WORKED BY MOBILE FIRST */
 body {
-  background-color:  #FFFFFF;
+  background-color: #ffffff;
   margin: 0;
 }
 
-aside{
-  background-color: #FFFFFF;
+aside {
+  background-color: #ffffff;
   margin: 0;
 }
 
-header{
+header {
   height: 508px;
 }
 
-a{
-  text-decoration: none
+a {
+  text-decoration: none;
 }
 
-.tag-container{
+.tag-container {
   display: flex;
-  justify-content: center;
 }
 
-.tag-container-left{
+.tag-container-left {
   display: flex;
   justify-content: left;
 }
 
-h4{
+h4 {
   font-family: "Roboto";
   color: #2b2e34;
   background: #fddfe7;
@@ -36,12 +34,12 @@ h4{
   margin: 8px 5px 17px 0px;
 }
 
-h3{
+h3 {
   text-align: center;
 }
 
-.H3-tech{
-  color: #FF0000;
+.H3-tech {
+  color: #ff0000;
   box-sizing: border-box;
   font-family: "Montserrat";
   font-size: 27px;
@@ -50,7 +48,7 @@ h3{
   padding-top: 20px;
 }
 
-h2{
+h2 {
   color: #000000;
   font-family: "Montserrat";
   font-size: 17px;
@@ -60,7 +58,7 @@ h2{
   font-weight: lighter;
 }
 
-.H2-tech{
+.H2-tech {
   color: #000000;
   font-family: "Montserrat";
   font-size: 17px;
@@ -72,7 +70,7 @@ h2{
 
 /*Header text*/
 
-.h2-myname{
+.h2-myname {
   color: #ffffff;
   display: flex;
   font-family: "Roboto";
@@ -85,7 +83,7 @@ h2{
   top: 140px;
 }
 
-.h2-mytitel{
+.h2-mytitel {
   color: #ffffff;
   display: flex;
   font-family: "Montserrat";
@@ -98,21 +96,21 @@ h2{
   top: 170px;
 }
 
-.H2-projects{
+.H2-projects {
   color: #000000;
   font-size: 17px;
   font-family: "Montserrat";
   font-weight: lighter;
   margin: 8px 0 0 0;
-  padding: 1px 30px 4px;
-  text-align: center;
+  padding: 0px 0px 0px;
+  /*text-align: center;*/
 }
 /*Header*/
 
-.header-img{
+.header-img {
   position: relative;
   height: 508px;
-  background-image: url('images/airplane.jpg');
+  background-image: url("images/airplane.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -125,14 +123,14 @@ h2{
   top: 40px;
 }
 
-.linkedin-icon{
+.header-icon {
   width: 15px;
   height: 15px;
 }
 
-.link-linkedin{
+.header-link {
   border: 3px solid #ffffff;
-  border-radius: 50% ;
+  border-radius: 50%;
   width: 30px;
   height: 30px;
   display: flex;
@@ -142,51 +140,17 @@ h2{
   margin: 2px;
 }
 
-.github-icon{
-  width: 15px;
-  height: 15px;
-}
-
-.link-github{
-  border: 3px solid #ffffff;
-  border-radius: 50% ;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 7px;
-  margin: 2px;
-}
-
-.stackoerflow-icon{
-  width: 15px;
-  height: 15px;
-}
-
-.link-stackoverflow{
-  border: 3px solid #ffffff;
-  border-radius: 50% ;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 7px;
-  margin: 2px;
-}
-
-.about-you{
+.about-you {
   color: aliceblue;
 }
 
-.selfie{
+.selfie {
   color: aliceblue;
   display: flex;
   justify-content: flex-end;
   position: absolute;
   right: 50px;
-  top: 360px; 
+  top: 360px;
 }
 
 .selfie-image {
@@ -197,27 +161,38 @@ h2{
 
 /* First section*/
 
-.top-section{
-  background-color: #F4F4F4;
+.top-section {
+  background-color: #f4f4f4;
   text-align: center;
 }
 
 /*Second section*/
 
-.tech-section{
-  background-color: #FFFFFF;
+.tech-section {
+  background-color: #ffffff;
 }
 
 /* section tree*/
 
-.featured-projects{
-  background-color: #F4F4F4;
+.featured-projects {
+  /*background-color: #f4f4f4;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: center;*/
+  /*flex-direction: column;*/
+  background: #f4f4f4;
+  padding: 46px 36px;
 }
 
-.h2-featured{
+.card-grid {
+  display: grid;
+  justify-content: center;
+  grid-gap: 20px 50px;
+  margin: auto;
+  justify-self: center;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 480px));
+}
+
+.h2-featured {
   color: #000000;
   display: flex;
   justify-content: center;
@@ -229,52 +204,49 @@ h2{
   font-weight: bolder;
 }
 
-span{
-  color: #FF0000;
+span {
+  color: #ff0000;
   font-weight: bold;
   font-size: 20px;
   font-family: "Montserrat";
   text-align: left;
 }
 
-.divprojects{
+.divprojects {
   color: #000000;
   font-family: "Montserrat";
   font-weight: lighter;
   font-size: 20px;
-  /*margin: 10px;*/
 }
 
-/*My projects*/
-
-.featured-projects{
+.Projects {
   display: flex;
-  justify-content: center;
-}
-
-.Projects{
-  display: flex;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .Images {
-  display: flex;
-  width: 290px;
-  height: 290px;
+  /*display: flex;*/
+  width: 170x;
+  height: 170px;
+  /*width: 100%;*/
+}
+
+.projects-images {
+  width: 100%;
 }
 
 /*other projects*/
 
-.other-projects{
-  background-color: #FFFFFF;
+.other-projects {
+  background-color: #ffffff;
   display: flex;
   justify-content: left;
   flex-direction: column;
   padding: 20px;
 }
 
-.h1-thoughts{
+.h1-thoughts {
   color: #000000;
   text-align: left;
   font-family: "Roboto";
@@ -283,31 +255,31 @@ span{
   font-weight: bolder;
 }
 
-.my-thoughts{
-  background-color: #F4F4F4;
+.my-thoughts {
+  background-color: #f4f4f4;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.mythoughts-images2{
+.mythoughts-images2 {
   display: none;
 }
 
 /*Skills*/
 
-.h1-skills{
-  color: #FF0000;
+.h1-skills {
+  color: #ff0000;
   font-family: "Roboto";
   text-align: center;
-  font-size: 27px;
+  font-size: 25px;
   margin-bottom: 16px;
   margin-top: 23px;
 }
 
-.skillscode{
-  color: #FF0000;
+.skillscode {
+  color: #ff0000;
   font-family: "Roboto";
   font-weight: bold;
   font-size: 20px;
@@ -315,20 +287,20 @@ span{
   margin-bottom: 0px;
 }
 
-.divcode{
+.divcode {
   color: #000000;
   font-size: 20px;
   font-weight: lighter;
   font-family: "Roboto";
 }
 
-.skilLs{
+.skilLs {
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
 
-.skills-code{
+.skills-code {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -336,39 +308,26 @@ span{
   padding: 0px 12px 15px 0px;
 }
 
-.skills-toolbox{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 0px 12px 3px 0px;
-}
-
-.skills-upcoming{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 0px 12px 3px 0px;
-}
-
-/* More me*/
-
-.more-me{
-  background-color: #F4F4F4;
+.more-me {
+  background-color: #f4f4f4;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.all-iconfooter{
+.all-iconfooter {
   display: flex;
   justify-content: center;
 }
 
-.linkdin-footer{
-  border: 3px solid #FF0000;
-  border-radius: 50% ;
+.iconfooter {
+  width: 20px;
+  height: 20px;
+}
+
+.all-footer {
+  border: 3px solid #ff0000;
+  border-radius: 50%;
   width: 30px;
   height: 30px;
   display: flex;
@@ -378,65 +337,24 @@ span{
   margin: 20px;
 }
 
-.linkedin-iconfooter{
-  width: 20px;
-  height: 20px;
-}
-
-.github-footer{
-  border: 3px solid #FF0000;
-  border-radius: 50% ;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 20px;
-}
-
-.github-iconfooter{
-  width: 20px;
-  height: 20px;
-}
-
-.stackoverflow-footer{
-  border: 3px solid #FF0000;
-  border-radius: 50% ;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  margin: 20px;
-}
-
-.stackoverflow-iconfooter{
-  width: 20px;
-  height: 20px;
-}
-
-/* Footer*/
-
-footer{
-  background-color: #072BCE;
+footer {
+  background-color: #072bce;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.text-footer{
-  color: #FFFFFF;
+.text-footer {
+  color: #ffffff;
   font-family: "Montserrat";
   font-weight: bold;
   font-size: 25px;
   text-align: center;
 }
 
-.name-footer{
-  color: #FFFFFF;
+.name-footer {
+  color: #ffffff;
   text-align: center;
   font-weight: bold;
   font-family: "Roboto";
@@ -446,8 +364,8 @@ footer{
   padding-bottom: 1px;
 }
 
-.contact-footer{
-  color: #FFFFFF;
+.contact-footer {
+  color: #ffffff;
   font-family: "Roboto";
   font-weight: lighter;
   text-align: center;
@@ -456,404 +374,145 @@ footer{
 }
 
 @media (min-width: 667px) and (max-width: 1024px) {
-
-  aside{
+  aside {
     margin: 0 50px 0 50px;
   }
 
-  .h2-myname{
+  .h2-myname {
     font-size: 20px;
     left: 15px;
     top: 100px;
   }
-  
-  .h2-mytitel{
+
+  .h2-mytitel {
     font-size: 20px;
     left: 15px;
     top: 130px;
   }
 
-  header{
+  header {
     height: 300px;
   }
 
-  .header-img{
+  .header-img {
     height: 300px;
   }
 
-  .linkedin-icon{
-    width: 20px;
-    height: 20px;
-  }
-  
-  .link-linkedin{
-    width: 40px;
-    height: 40px;
-  }
-
-  .github-icon{
-    width: 20px;
-    height: 20px;
-  }
-  
-  .link-github{
-    width: 40px;
-    height: 40px;
-  }
-
-  .link-stackoverflow{
-    width: 40px;
-    height: 40px;
-  }
-
-  .stackoerflow-icon{
-    width: 20px;
-    height: 20px;
-  }
-
-  .selfie{
+  .selfie {
     right: 55px;
     top: 150px;
   }
 
-  /*SEction one*/
+  /*.Images {
+    width: 330px;
+    height: 330px;
+  }*/
 
-  h2{
-    font-size: 20px;
-  }
-
-  /*Section two*/
-
-  .H3-tech{
-    font-size: 30px;
-    padding-top: 15px;
-  }
-
-  .H2-tech{
-    font-size: 25px;
-    margin: 5px 0 0 0;
-    padding: 0px 30px 20px;
-    text-align: center;
-  }
-
-  /*My projects*/
-
-.Images {
-  width: 330px;
-  height: 330px;
-}
-
-.H2-projects{
-  font-size: 20px;
-}
-
-.divprojects{
-  font-size: 25px;
-}
-
-span{
-  font-size: 25px;
-}
-
-  /*thoughts section*/
-
-  .h1-thoughts{
-    font-size: 25px;
-  }
-
-  .thoughts-images{
+  .thoughts-images {
     display: flex;
     justify-content: center;
   }
 
-  .mythoughts-images{
+  .mythoughts-images {
     margin: 4px;
   }
 
-  .mythoughts-images2{
+  .mythoughts-images2 {
     display: flex;
     margin: 4px;
   }
 
-   /*Skills*/
-
-   .h1-skills{
-    font-size: 35px;
-    margin-bottom: 20px;
-  }
-  
-  .skillscode{
-    font-size: 25px;
-    margin-top: 10px;
-  }
-  
-  .divcode{
-    font-size: 25px;
-  }
-
-  .skills-code{
+  .skills-code {
     padding: 0px 35px 30px 0px;
   }
-  
-  .skills-toolbox{
-    padding: 0px 35px 25px 0px;
-  }
-  
-  .skills-upcoming{
-    padding: 0px 35px 25px 0px;
-  }
-
-  /*More me*/
-
-  .linkdin-footer{
-    width: 60px;
-    height: 60px;
-    padding: 7px;
-    margin: 40px;
-  }
-
-  .github-footer{
-    width: 60px;
-    height: 60px;
-    padding: 7px;
-    margin: 40px;
-  }
-  
-  .stackoverflow-footer{
-    width: 60px;
-    height: 60px;
-    padding: 7px;
-    margin: 40px;
-  }
-
-  /*Footer*/
-
-  .text-footer{
-    font-size: 30px;
-  }
-  
-  .name-footer{
-    font-size: 25px;
-  }
-  
-  .contact-footer{
-    font-size: 25px;
-  }
-
 }
 @media (min-width: 1025px) {
-
-  aside{
+  aside {
     margin: 0 75px 0 75px;
   }
 
-  h2{
-    font-size: 30px;
+  h2 {
+    font-size: 20px;
     margin: 0;
-    padding: 180px;
+    padding: 100px;
   }
 
-  .H3-tech{
-    font-size: 50px;
-    /*letter-spacing: 0;*/
+  .H3-tech {
+    font-size: 20px;
     padding-top: 50px;
   }
 
-  .H2-tech{
-    font-size: 30px;
+  .H2-tech {
+    font-size: 20px;
     margin: 30px 50px 30px 50px;
     padding: 80px;
     padding-top: 0;
     text-align: center;
   }
 
-  .H2-projects{
-    font-size: 30px;
-  }
-
-  h4{
+  h4 {
     padding: 10px;
     margin: 12px 15px 26px 0px;
   }
 
-  span{
-    font-size: 35px;
-  }
-  
-  .divprojects{
-    font-size: 30px;
-  }
-
-  header{
+  header {
     height: 666px;
   }
 
-  .header-img{
+  .header-img {
     height: 666px;
-  }
-
-  .linkedin-icon{
-    width: 20px;
-    height: 20px;
-  }
-
-  .link-linkedin{
-    width: 40px;
-    height: 40px;
-    padding: 7px;
-  }
-
-  .github-icon{
-    width: 20px;
-    height: 20px;
-  }
-
-  .link-github{
-    width: 40px;
-    height: 40px;
-    padding: 7px;
-  }
-
-  .stackoerflow-icon{
-    width: 20px;
-    height: 20px;
-  }
-
-  .link-stackoverflow{
-    width: 40px;
-    height: 40px;
-    padding: 7px;
   }
 
   .social-media {
     right: 80px;
     top: 100px;
   }
-    
-  .selfie{
+
+  .selfie {
     right: 250px;
     top: 400px;
   }
 
-  .selfie-image{
+  .selfie-image {
     height: 300px;
     width: 300px;
-    /*background-size: cover;
-    background-position: bottom;*/
-    /*background-attachment: fixed;
-    background-position: center;*/
   }
-  
-  .h2-featured{
+
+  .h2-featured {
     letter-spacing: 0.52px;
     font-size: 30px;
   }
 
   /* My projects*/
 
-  .Images {
-    width: 500px;
-    height: 400px;
-  }
+  /*.Images {
+    width: 300px;
+    height: 300px;
+  }*/
 
-  /*mythoughts section*/
-
-  .h1-thoughts{
-    font-size: 30px;
-  }
-
-  .thoughts-images{
+  .thoughts-images {
     display: flex;
     justify-content: center;
   }
 
-  .mythoughts-images{
+  .mythoughts-images {
     margin: 8px;
   }
 
-  .mythoughts-images2{
+  .mythoughts-images2 {
     display: flex;
     margin: 8px;
   }
 
-  /*Skills*/
-
-  .h1-skills{
-    font-size: 50px;
+  .h1-skills {
     margin-bottom: 20px;
   }
-  
-  .skillscode{
-    font-size: 35px;
-    margin-top: 10px;
-  }
-  
-  .divcode{
-    font-size: 35px;
-  }
 
-  .skills-code{
+  .skills-code {
     padding: 0px 35px 30px 0px;
   }
-  
-  .skills-toolbox{
-    padding: 0px 35px 25px 0px;
-  }
-  
-  .skills-upcoming{
-    padding: 0px 35px 25px 0px;
-  }
 
-  /*More me*/
-
-  .linkdin-footer{
-    width: 80px;
-    height: 80px;
-    padding: 7px;
-    margin: 40px;
-  }
-
-  .linkedin-iconfooter{
-    width: 40px;
-    height: 40px;
-  }
-
-  .github-footer{
-    width: 80px;
-    height: 80px;
-    padding: 7px;
-    margin: 40px;
-  }
-
-  .github-iconfooter{
-    width: 40px;
-    height: 40px;
-  }
-  
-  .stackoverflow-footer{
-    width: 80px;
-    height: 80px;
-    padding: 7px;
-    margin: 40px;
-  }
-
-  .stackoverflow-iconfooter{
-    width: 40px;
-    height: 40px;
-  }
-
-  /*Footer*/
-
-  .text-footer{
-    font-size: 48px;
-  }
-  
-  .name-footer{
-    font-size: 40px;
+  .name-footer {
     padding: 20px 20px;
-  }
-  
-  .contact-footer{
-    font-size: 40px;
   }
 }
